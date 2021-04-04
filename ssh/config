@@ -1,0 +1,23 @@
+
+# DeepLearning Machine By Frp
+Host fubo
+    HostName 39.102.92.43
+    User fubo
+    Port 6000
+
+
+# punk-boy @ github.com
+Host pg
+	HostName github.com
+	User punk-boy
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_punk-boy
+
+# wooistxx @ github.com
+Host wg
+	HostName github.com
+	User wooistxx
+	PreferredAuthentications publickey
+	IdentityFile ~/.ssh/id_wooistxx
+
+
