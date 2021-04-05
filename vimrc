@@ -1,5 +1,9 @@
+" maintain by Tom Mao 
+" Contact: wooistxx@gmail.com,outlook.com
+" Github: https://github.com/wooistxx/dotfiles
 
 
+"-----------------------------------------
 " basic configuration
 
 set nocompatible                " don't bother with vi compatibility "
@@ -15,6 +19,7 @@ set timeoutlen=500
 set nu
 syntax on
 
+"-----------------------------------------
 " coding
 
 set encoding=utf-8  
@@ -25,6 +30,7 @@ set formatoptions+=m
 set formatoptions+=B
 
 
+"-----------------------------------------
 " interface
 
 set ruler                       " show the current row and column "
@@ -36,6 +42,7 @@ set showmatch                   " jump to matches when entering parentheses "
 set matchtime=2                 " tenths of a second to show the matching parenthesis "
 
 
+"-----------------------------------------
 " search
 
 set hlsearch                    " highlight searches "
@@ -45,6 +52,7 @@ set smartcase                   " no ignorecase if Uppercase char present "
 
 
 
+"-----------------------------------------
 " space, tab and indent
 
 set expandtab                   " expand tabs to spaces "
@@ -53,14 +61,16 @@ set shiftround
 set autoindent smartindent shiftround                                                                            
 set shiftwidth=4    
 set tabstop=4       
-set softtabstop=4                " insert mode tab and backspace use 4 spaces "
+set softtabstop=4               " insert mode tab and backspace use 4 spaces "
 
+"-----------------------------------------
 " cursor
 
 "set cursorcolumn
 "set cursorline
 
 
+"-----------------------------------------
 " file type
 
 filetype on
@@ -99,6 +109,7 @@ endfun
 
 
 
+"-----------------------------------------
 " key mapping
 "nnoremap k gk
 "nnoremap gk k
@@ -155,6 +166,10 @@ cnoremap <C-k> <t_ku>
 cnoremap <C-a> <Home>
 cnoremap <C-e> <End>
 
-
+"-----------------------------------------
+" Local config
+if filereadable($HOME . "/.vimrc.local")
+  source ~/.vimrc.local
+endif
 
 
