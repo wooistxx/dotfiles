@@ -8,6 +8,12 @@ ln -snf $cwd/aliases ~/.aliases
 
 
 
+# nerd-fonts
+mkdir -p ~/.local/share/ && cd ~/.local/share
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+bash install.sh
+
 # ssh
 ln -snf $cwd/ssh ~/.ssh
 
@@ -16,9 +22,9 @@ ln -snf $cwd/ssh ~/.ssh
 # tmux - oh-my-zsh
 # ln -snf $cwd/oh-my-tmux/tmux.conf ~/.tmux.conf
 # ln -snf $cwd/oh-my-tmux/tmux.conf.local ~/.tmux.conf.local
-ln -snf $cwd/more_tmux/nord/tmux.conf ~/.tmux.conf
-ln -snf $cwd/more_tmux/nord/tmux.conf.local ~/.tmux.conf.local
-tmux source ${HOME}/.tmux.conf
+# tmux source ${HOME}/.tmux.conf
+source ${cwd}/more_tmux/nordplus/install.sh
+
 
 # vimrc
 ln -snf $cwd/vimrc ~/.vimrc
