@@ -18,6 +18,6 @@ Host wg
 	HostName github.com
 	User wooistxx
 	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/id_wooistxx
+	IdentityFile ~/.ssh/id_wooistxx_github
 
 
