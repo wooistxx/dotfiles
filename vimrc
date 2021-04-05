@@ -100,16 +100,16 @@ endfun
 
 
 " key mapping
-nnoremap k gk   
-nnoremap gk k   
-nnoremap j gj   
-nnoremap gj j   
+"nnoremap k gk
+"nnoremap gk k
+"nnoremap j gj
+"nnoremap gj j
                 
-map <C-j> <C-W>j                                                                                                                                           
+map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-                
+
 nnoremap <F2> :set nu! nu?<CR>
 nnoremap <F3> :set list! list?<CR>
 nnoremap <F4> :set wrap! wrap?<CR>

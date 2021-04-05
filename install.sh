@@ -3,7 +3,8 @@
 cwd=`pwd`
 # echo $cwd
 
-
+# alias
+ln -snf $cwd/aliases ~/.aliases
 
 # ssh
 ln -snf $cwd/ssh ~/.ssh

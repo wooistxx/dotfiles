@@ -120,3 +120,15 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+
+# Local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
+
+
+
+
