@@ -120,6 +120,10 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Language Confirm
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US
+#export LANGUAGE=en_US:zh_CN
 
 
 # Local config
@@ -127,8 +131,6 @@ unset __conda_setup
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
-
-
 
 
 
