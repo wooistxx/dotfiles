@@ -20,10 +20,17 @@ ln -snf $cwd/ssh ~/.ssh
 # tmux
 # ln -snf $cwd/tmux.conf ~/.tmux.conf
 # tmux - oh-my-zsh
+<<<<<<< HEAD
 #ln -snf $cwd/oh-my-tmux/tmux.conf ~/.tmux.conf
 #ln -snf $cwd/oh-my-tmux/tmux.conf.local ~/.tmux.conf.local
 ln -snf $cwd/more-tmux/nord-tmux/nord.tmux ~/.tmux.conf
 tmux source ${HOME}/.tmux.conf
+=======
+ln -snf $cwd/oh-my-tmux/tmux.conf ~/.tmux.conf
+ln -snf $cwd/oh-my-tmux/tmux.conf.local ~/.tmux.conf.local
+tmux source ${HOME}/.tmux.conf
+#bash ${cwd}/more-tmux/nordplus/install.sh
+>>>>>>> 050859268bc800f434bd3982913389bbddcdae98
 
 
 # vimrc
